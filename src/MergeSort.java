@@ -38,7 +38,6 @@ public class MergeSort {
                     arr[idx] = r[j];
                     j++;
                 }
-                idx++;
             } else {
                 if (l[i] > r[j]) {
                     arr[idx] = l[i];
@@ -47,8 +46,8 @@ public class MergeSort {
                     arr[idx] = r[j];
                     j++;
                 }
-                idx++;
             }
+            idx++;
         }
 
         for (int ll = i; ll < left; ll++)
@@ -97,7 +96,6 @@ public class MergeSort {
                     arr[idx] = r[j];
                     j++;
                 }
-                idx++;
             } else {
                 if (l[i].compareTo(r[j]) > 0) {
                     arr[idx] = l[i];
@@ -106,8 +104,8 @@ public class MergeSort {
                     arr[idx] = r[j];
                     j++;
                 }
-                idx++;
             }
+            idx++;
         }
 
         for (int ll = i; ll < left; ll++)
