@@ -10,17 +10,17 @@
 java -jar <Путь к TestCFT.jar> <тип сортировки (-a или -d)> <тип данных (-i или -s)> <путь к файлу с выходными данными> <путь к файлу с входными данными> <путь к файлу с входными данными> ... <путь к файлу с входными данными>
 ```
 
-Примеры для запуска, когда все файлы находятся в одной папке:
+Примеры запуска, когда все файлы находятся в одной папке:
 
 Для целых чисел по возрастанию:
 ```
-java -jar Test.CFT.jar -a -i out.txt file1.txt file2.txt file3.txt
+java -jar TestCFT.jar -a -i out.txt file1.txt file2.txt file3.txt
 ```
 Для строк по возрастанию:
 ```
-java -jar Test.CFT.jar -a -s out.txt file1.txt file2.txt file3.txt
+java -jar TestCFT.jar -a -s out.txt file1.txt file2.txt file3.txt
 ```
 Для строк по убыванию:
 ```
-java -jar Test.CFT.jar -d -i out.txt file1.txt file2.txt file3.txt
+java -jar TestCFT.jar -d -s out.txt file1.txt file2.txt file3.txt
 ```
