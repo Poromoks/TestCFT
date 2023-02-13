@@ -22,9 +22,9 @@ java -jar TestCFT.jar -a -i out.txt file1.txt file2.txt file3.txt
 ```
 Для строк по возрастанию:
 ```
-java -jar TestCFT.jar -a -s out.txt str1.txt str2.txt str3.txt
+java -jar TestCFT.jar -a -s out2.txt str1.txt str2.txt str3.txt
 ```
 Для строк по убыванию:
 ```
-java -jar TestCFT.jar -d -s out.txt str1.txt str2.txt str3.txt
+java -jar TestCFT.jar -d -s out2.txt str1.txt str2.txt str3.txt
 ```
